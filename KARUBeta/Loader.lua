@@ -8,7 +8,7 @@ local SupportedGames = {
 
 if SupportedGames[GameId] then
     loadstring(game:HttpGet(SupportedGames[GameId]))()
-    warn("✅ Game supported")
+    warn("✅ Game Supported")
 else
-    warn("❌ Game not supported")
+    warn("❌ Game Not Supported")
 end
